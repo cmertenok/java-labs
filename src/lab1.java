@@ -12,7 +12,7 @@
          double numerator = 0;
 
          for (double i = a; i <= n; i++){
-             denominator = (i + c);
+             denominator = (i - c);
              for (double j = b; j <= m; j++){
                  numerator = (i + j);
                  if (denominator != 0) {
